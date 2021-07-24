@@ -12,7 +12,7 @@ import { unitConversionApi } from "src/generated-code/api/unitConversionApi";
 import UnitType = unitConversionApi.models.UnitType;
 
 /**
- * Displays unit type. Mock to be deleted after merge of Christian's changes.
+ * Displays unit type. Mock to be deleted after merge of ... changes.
  * @param unitType is unit type to display.
  * @param updateOnChange is callback to refresh when unit type is changed.
  * @constructor
@@ -62,61 +62,61 @@ export const UnitTypeMock = ({
 becomes
 
 ```typescript
-import * as React from "react";
-import { useState } from "react";
-import { Button } from "@blueprintjs/core";
-import { getNewModalInstance } from "src/components/modals/genericModal/GenericModalView";
-import { ModifyUnitTypeView } from "src/components/domains/unitConversion/modals/unitType/modifyUnitTypeModal/ModifyUnitTypeView";
-import { localeUtils } from "src/testUtils/locale";
-import { unitConversionApi } from "src/generated-code/api/unitConversionApi";
-import UnitType = unitConversionApi.models.UnitType;
+⇢ * as ⚡️ ⇠ 🌩
+➡️🚢⬅️🌩
+➡️ℹ️⬅️"@blueprintjs/core";
+➡️🌊🆕🪟1️⃣⬅️"🫀/⚙️s/📳s/generic🪟/Generic🪟🌁";
+➡️🔄𝍥ឱ🌁⬅️"🫀/⚙️s/⩤s/𝍥💱/📳s/𝍥ឱ/🖋𝍥ឱ🪟/🔄𝍥ឱ🌁";
+➡️👅📎s⬅️"🫀/🧪📎s/👅";
+➡️𝍥💱📡⬅️"🫀/💥-🔐/🗜/𝍥💱📡";
+⇢ 𝍥ឱ = 𝍥💱📡.👩🏻‍🦳s.𝍥ឱ;
 
 /**
- * Displays unit type. Mock to be deleted after merge of Christian's changes.
- * @param unitType is unit type to display.
- * @param updateOnChange is callback to refresh when unit type is changed.
+ * D⋕plays 𝍥 type. ☕️ to be deleted after merge of ᠅ changes.
+ * @param 𝍥ឱ ⋕ 𝍥 type to 👀.
+ * @param 🆕🔛🐒 ⋕ callback to refresh when 𝍥 type ⋕ changed.
  * @constructor
  */
-export const UnitTypeMock = ({
-    unitType,
-    updateOnChange
-}: {
+export const 𝍥ឱ☕️ = ({
+                                 𝍥ឱ,
+                                 🆕🔛🐒
+                             }: {
     /**
-     * Unit type to display.
+     * 𝍥 type to 👀.
      */
-    unitType: UnitType;
+    𝍥ឱ: 𝍥ឱ;
     /**
-     * Callback to refresh when unit type is changed.
-     * @param unitType is unit type to update.
+     * Callback to refresh when 𝍥 type ⋕ changed.
+     * @param 𝍥ឱ ⋕ 𝍥 type to 🆕.
      */
-    updateOnChange: (unitType: UnitType) => void;
+    🆕🔛🐒: (𝍥ឱ: 𝍥ឱ) => void;
 }) => {
-    const [generatedUUID, setGeneratedUUID] = useState("");
+    const [💥🏷, 🪑Generated🏷] = 🚢(""🔚
 
-    return (
-        <div>
-            {JSON.stringify(unitType)}
+    ⮑
+        🔳
+            {⤳(𝍥ឱ)}
 
-            <div>
-                <Button
-                    text={"Change"}
-                    onClick={() => {
-                        setGeneratedUUID(getNewModalInstance());
+            🔳
+                <ℹ️
+                    📕🐒"}
+                    ʘ) => {
+                        🪑Generated🏷(🌊🆕🪟1️⃣()🔚
                     }}
                 />
-                <ModifyUnitTypeView
-                    onSave={(name: string) => {
-                        updateOnChange({ ...unitType, name: name });
+                <🔄𝍥ឱ🌁
+                    🦌📇: 🪢) => {
+                        🆕🔛🐒({ ᠅𝍥ឱ, 📇: 📇 }🔚
                     }}
-                    localeUtils={localeUtils}
-                    isUnitTest={false}
-                    currentModalInstanceId={generatedUUID}
-                    unitType={unitType}
+                    👅📎s={👅📎s}
+                    ⋕𝍥🧪={false}
+                    current🪟1️⃣Id={💥🏷}
+                    𝍥ឱ={𝍥ឱ}
                 />
-            </div>
-        </div>
-    );
-};
+            ⬜️
+        ⬜️
+    🔚
+🔚
 ```
 
 
