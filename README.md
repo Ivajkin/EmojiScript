@@ -1,4 +1,4 @@
-# acp-cloud-template (Repo Name)
+# EmojiScript Cloud Hub AI
 
 
 ## Repo Structure
